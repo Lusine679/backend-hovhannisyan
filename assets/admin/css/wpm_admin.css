@@ -1,0 +1,61 @@
+#user-name {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 99%;
+  font-size: 16px;
+  padding: 5px 5px 5px 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+#userTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 17px;
+}
+#userTable th, #userTable td {
+  text-align: left;
+  padding: 12px;
+}
+#userTable tr {
+  border-bottom: 1px solid #ddd;
+}
+#userTable tr.header, #userTable tr:hover {
+  background-color: #c7c7c7;
+} 
+#btn_next, #btn_prev  {
+  background-color: #04AA6D;
+  color: #5f5f5f;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+#pageNavPosition span{
+  background-color: #fff;
+  border: 1px solid #5f5f5f;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pageNavPosition span:hover {
+  background-color: #5f5f5f;
+  color: #fff;
+}
+#pageNavPosition .pg-selected{
+  background-color: #5f5f5f;
+  color: #fff;
+}
+#pageNavPosition{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+.custom-select{
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
